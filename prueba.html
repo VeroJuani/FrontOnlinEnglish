@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/estilo.css">
+    <title>OnlinEnglish</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/onlineNglish (1).png" alt="Logotipo de OnlineEnglish" class="logo">
+        </div>
+        <div class="header-content">
+            <h1 class="header-title">OnlinEnglish</h1>
+            <h3 class="header-subtitle">Animate a abrir nuevas puertas</h3>
+        </div>
+        <div class="header-buttons">
+            <a href="login.html" class="login-button">Iniciar Sesión</a>
+            <a href="registro.html" class="registro-button">Registrarse</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="alumnos.html">Alumnos</a>
+        <a href="prueba.html">Prueba de Nivelación</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <Section class="level-1">
+        <img src="img/dai-ke-GkraTrCYA_0-unsplash.jpg" alt="Imagen de Evaluacion" class="evaluacion-image1">
+
+        <section class="evaluacion">
+            <section class="section-title">
+                <h3>¿Querés conocer tu nivel actual de inglés?</h3>
+            </section>
+
+            <h4 class="section-info">
+                Realiza nuestro breve cuestionario en línea para descubrir qué curso y nivel son los
+                más adecuados para vos. Nuestra prueba es 100% online y está diseñada con preguntas y actividades
+                interactivas que evaluarán tus habilidades de comprensión oral y escrita en inglés. Después de completar
+                el examen, recibirás un correo electrónico con tus resultados y la recomendación de nivel de nuestros
+                profesionales. ¡Te deseamos buena suerte en tu evaluación!
+            </h4>
+        </section>
+    </section>
+
+
+    <Section class="level-2">
+        <section class="evaluacion">
+            <section class="section-title">
+                <h3>¿Cómo se determina tu nivel de inglés?</h3>
+            </section>
+            <h4 class="section-info">
+                Una vez que hayas terminado las preguntas de nivel en nuestro examen de inglés online,
+                tus respuestas seran evaluadas según el Marco Común Europeo de Referencia para las Lenguas
+                (MCER). Esta metodología es ampliamente reconocida en la comunidad educativa internacional
+                y se centra en medir la comprensión lectora, las habilidades gramaticales, la expresión oral
+                y las habilidades comunicativas. Los niveles oficiales de inglés según el MCER son: A1 (básico),
+                A2 (pre-intermedio), B1 (intermedio), B2 (intermedio-alto) y C1 y C2 (avanzado).
+            </h4>
+        </section>
+        <img src="img/dylan-ferreira-HJmxky8Fvmo-unsplash.jpg" alt="Imagen de Evaluacion" class="evaluacion-image2">
+    </Section>
+
+    <section class="contacto-evaluacion">
+
+
+        <div class="contedor-contact">
+            <section class="contact-section-prueba">
+                <img src="img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpeg" alt="Imagen de Evaluacion" class="evaluacion-image3">
+                <form id="contact-form" onsubmit="return validarFormulario()">
+
+                    <Section>
+                        <section class="section-title-prueba">
+                            <h3>Descubrí tu nivel de inglés</h3>
+                        </section>
+                    </Section>
+
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Ingrese su nombre"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" autocomplete="off" placeholder="Ingrese su Email"
+                            required>
+                    </p>
+
+
+                    <span id="error-message" style="color: red;"></span>
+                    <div class="button-prueba">
+                        <p>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Borrar</button>
+                         </p>
+                    </div>
+                </form>
+
+
+            </section>
+        </div>
+
+
+    </section>
+
+    <footer class="flex">
+        <h4 class="footer-title">Seguinos en nuestras redes</h4>
+        <div class="social-icons">
+            <div class="social-icon">
+                <img src="img/instagram.png" alt="Logo de Instagram">
+                <h5>Instagram</h5>
+            </div>
+            <div class="social-icon">
+                <img src="img/facebook.png" alt="Logo de Facebook">
+                <h5>Facebook</h5>
+            </div>
+            <div class="social-icon">
+                <img src="img/linkedin.png" alt="Logo de LinkedIn">
+                <h5>LinkedIn</h5>
+            </div>
+        </div>
+
+        <h6 class="footer-info">OnlinEnglish 2023 Derechos Reservados</h6>
+    </footer>
+</body>
+
+</html>
